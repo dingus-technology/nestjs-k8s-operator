@@ -21,7 +21,7 @@ Uses [zod](https://github.com/colinhacks/zod) object defintions to create typesa
 ### Installation
 
 ```bash
-npm i nestjs-k8s-operator
+npm i @dingusjs/nestjs-k8s-operator
 ```
 
 ## Example
