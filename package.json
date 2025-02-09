@@ -1,5 +1,5 @@
 {
-  "name": "nestjs-k8s-operator",
+  "name": "@dingusjs/nestjs-k8s-operator",
   "version": "1.0.0",
   "description": "NestJS kubernetes operator module",
   "license": "MIT",
