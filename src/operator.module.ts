@@ -28,7 +28,8 @@ export class KubernetesOperatorModule
   constructor(
     private readonly discover: DiscoveryService,
     private readonly operator: KubernetesOperator,
-    @Inject(MODULE_OPTIONS) private readonly config: ModuleOptions,
+    @Inject(MODULE_OPTIONS)
+    private readonly config: ModuleOptions,
   ) {
     super();
   }
@@ -47,9 +48,10 @@ export class KubernetesOperatorModule
       return;
     }
 
-    const providers = await this.discover.providersWithMetaAtKey<
-      WatcherMeta<any, any, any>
-    >(KUBERNETES_RESOURCE);
+    const providers =
+      await this.discover.providersWithMetaAtKey<WatcherMeta<any, any, any>>(
+        KUBERNETES_RESOURCE,
+      );
 
     providers.forEach((provider) => {
       const instance = provider.discoveredClass

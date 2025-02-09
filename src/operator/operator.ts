@@ -1,7 +1,6 @@
 import Operator, { ResourceEventType } from '@dot-i/k8s-operator';
 import { KubernetesObject } from '@kubernetes/client-node';
 import { Injectable, Logger } from '@nestjs/common';
-import { Config } from '../config';
 import { BaseResource } from 'src/utils/contract';
 import { Watcher as Handler } from '../decorators/resource';
 
