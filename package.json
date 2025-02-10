@@ -28,9 +28,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/tjbroodryk/nestjs-k8s-operator"
+    "url": "https://github.com/dingus-technology/nestjs-k8s-operator"
   },
-  "bugs": "https://github.com/tjbroodryk/nestjs-k8s-operator",
+  "bugs": "https://github.com/dingus-technology/nestjs-k8s-operator",
   "peerDependencies": {
     "@nestjs/common": "^8.0.0",
     "reflect-metadata": "^0.1.13",
