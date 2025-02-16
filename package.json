@@ -26,6 +26,9 @@
     "kubernetes",
     "operator"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/dingus-technology/nestjs-k8s-operator"
